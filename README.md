@@ -11,20 +11,20 @@ React (Frontend) → FastAPI (Backend) → Gemini API (LLM)
 ## Technical choices
 
 ### Frontend
-- React
+#### React 
 Chosen for simplicity and familiarity. Handles user input and displays the response.
 ### Backend
-- FastAPI
+#### FastAPI
 Lightweight and easy to set up. Good for building simple APIs quickly.
 ### LLM
-- Gemini API
+#### Gemini API
 Suitable free tier for single-turn applications.
 ### Other libraries
-- requests
+#### requests
 Used to send HTTP requests to the LLM API
-- python-dotenv
+#### python-dotenv
 Used for managing environment variables securely.
-- uvicorn
+#### uvicorn
 ASGI server for running FastAPI
 
 ## Setup
