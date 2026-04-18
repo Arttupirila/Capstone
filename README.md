@@ -31,7 +31,7 @@ ASGI server for running FastAPI
 ### Clone the repository
 #### git clone <repo-url>
 #### cd capstone
-### 2. Backend
+### Backend
 #### cd server
 #### pip install -r requirements.txt
 #### Create a `.env` file:
@@ -40,10 +40,10 @@ ASGI server for running FastAPI
 ### Run:
 #### uvicorn main:app --reload
 
-3. Frontend
-cd client
-npm install
-npm start
+### Frontend
+#### cd client
+#### npm install
+#### npm start
 
 ## Usage
 1. Open http://localhost:3000
