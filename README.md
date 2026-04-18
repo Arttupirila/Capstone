@@ -29,21 +29,19 @@ ASGI server for running FastAPI
 
 ## Setup
 ### Clone the repository
-#### git clone <repo-url>
-#### cd capstone
+#### "git clone <repo-url>"
+#### "cd capstone"
 ### Backend
-#### cd server
-#### pip install -r requirements.txt
+#### "cd server"
+#### "pip install -r requirements.txt"
 #### Create a `.env` file:
 #### GEMINI_API_KEY=your_api_key
-
-### Run:
-#### uvicorn main:app --reload
+#### "uvicorn main:app --reload"
 
 ### Frontend
-#### cd client
-#### npm install
-#### npm start
+#### "cd client"
+#### "npm install"
+#### "npm start"
 
 ## Usage
 1. Open http://localhost:3000
