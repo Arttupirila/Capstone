@@ -28,17 +28,17 @@ Used for managing environment variables securely.
 ASGI server for running FastAPI
 
 ## Setup
-1. Clone the repository
-git clone <repo-url>
-cd capstone
-2. Backend
-cd server
-pip install -r requirements.txt
-Create a `.env` file:
-GEMINI_API_KEY=your_api_key
+### Clone the repository
+#### git clone <repo-url>
+#### cd capstone
+### 2. Backend
+#### cd server
+#### pip install -r requirements.txt
+#### Create a `.env` file:
+#### GEMINI_API_KEY=your_api_key
 
-Run:
-uvicorn main:app --reload
+### Run:
+#### uvicorn main:app --reload
 
 3. Frontend
 cd client
