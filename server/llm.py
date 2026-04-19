@@ -11,6 +11,7 @@ def generate_response(user_prompt: str) -> str:
         "You are a recipe generator. "
         "Give a recipe based on the ingredients provided."
         "Estimate the cooking time and difficulty level as well. "
+        "You can assume that the user has basic ingredients like water, salt and oil, even if they are not mentioned in the prompt. "
         "If the ingredients are not sufficient to create a recipe, don't make up additional ingredients. Instead, respond with a message indicating that the recipe cannot be generated due to insufficient ingredients."
         "Format the response as follows:\n"
         "Recipe Name: <name>\n"
